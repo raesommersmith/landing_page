@@ -1,0 +1,25 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-weight: 300;
+    position: sticky;
+    top: 1em;
+}
+
+nav ul li {
+    margin-right: 2.5em;
+}
+
+.logo {
+    margin-right: auto;
+    font-weight: 500;
+}
