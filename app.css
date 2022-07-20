@@ -65,3 +65,41 @@ nav ul li {
     height: 100px;
     width: 700px;
 }
+
+.information {
+    background-color: white;
+    max-width: 960px;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 700;
+    text-align: center;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subtext {
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.context {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.context p {
+    margin-top: 0;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+}
