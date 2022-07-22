@@ -42,10 +42,16 @@ button {
     position: sticky;
     top: 1em;
     color: white;
+    padding: 0;
+    margin-bottom: 100px;
 }
 
 nav ul li {
     margin-right: 2.5em;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
 }
 
 .logo {
@@ -55,15 +61,20 @@ nav ul li {
 
 .hero {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .placeholder {
+    display: flex;
     background-color: darkgray;
     text-align: center;
     color: white;
     font-weight: 500;
-    height: 100px;
-    width: 700px;
+    height: 200px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
 }
 
 .information {
@@ -76,6 +87,7 @@ nav ul li {
     color: #1F2937;
     font-weight: 700;
     text-align: center;
+    padding-top: 50px;
 }
 
 .illustrations {
@@ -129,6 +141,11 @@ figcaption {
 
 .calltoaction {
     background-color: white;
+    height: 300px;
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .holder {
@@ -136,14 +153,19 @@ figcaption {
     background-color: #3882F6;
     border-radius: 15px;
     box-sizing: border-box;
-    width: 600px;
+    width: 800px;
     height: 100px;
     color: white;
     padding: 20px 20px;
+    align-items: center;
 }
 
 .holder p {
     font-weight: 300;
+}
+
+.left {
+    flex-grow: 2;
 }
 
 .right {
@@ -152,4 +174,11 @@ figcaption {
 
 .right button {
     border: 1px solid white;
+}
+
+footer {
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
 }
