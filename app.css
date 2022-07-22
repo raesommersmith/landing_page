@@ -21,10 +21,19 @@ h1 {
     color: #F9FAF8;
 }
 
+.white {
+    background-color: white;
+}
+
+.gray {
+    background-color: #E5E7EB;
+}
+
 .welcome {
-    color: #F9FAF8;
     font-size: 24px;
     font-weight: 300;
+    color: #F9FAF8;
+    width: 100%;
 }
 
 button {
@@ -79,7 +88,6 @@ nav ul li:last-child {
 
 .information {
     background-color: white;
-    max-width: 960px;
 }
 
 .information h2 {
@@ -117,12 +125,8 @@ nav ul li:last-child {
 }
 
 .quote {
-    background-color: #E5E7EB;
     padding: 0;
-    margin: 0;
     display: flex;
-    flex-flow: column;
-    max-width: 960px;
 }
 
 blockquote {
